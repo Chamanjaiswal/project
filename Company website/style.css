@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: "Comic Sans MS",sans-serif;
+    background-color: black;
+    
+}
+/*-- ------------------- Header -------------------*/
+header{
+    background-image: url("img/background2.jpg");
+    padding: 10px;
+    font-size: 25px;
+}
+/*-- ------------------- Nav Bar -------------------*/
+nav{
+    background-color: black;
+    padding: 15px;
+    box-shadow: 0 0 10px darkturquoise;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    display: inline-block;
+    border-bottom: 3px solid #822422;
+}
+nav a:hover{
+    background-color: darkred;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+}
+/*-- -------------------Aside Bar ------------------- */
+aside{
+    background-image: url("img/background2.jpg");
+    float: left;
+    width: 250px;
+    text-align: center;
+    position: sticky;
+    height: 555px;
+    padding: 10px;
+    top: 80px;
+    box-shadow: 0 0 10px darkturquoise;
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-shadow: 5px 0 10px dodgerblue;
+}
+aside a:hover{
+    background-color: rgba(0,0,0,0.5);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 0 10px white;
+}
+/* -- ------------------- Section ------------------- */
+section{
+    margin-left: 300px;
+    margin-top: 0;
+}
+article h2{
+    color: #822422;
+    font-size: 25px;
+}
+/* -- -------------------Footer ------------------- */
+footer{
+
+    background-image: url("img/background2.jpg");
+    height: 100px;
+    text-align: center;
+    box-shadow: 0 0 10px deepskyblue;
+    margin-left: 280px;
+}
